@@ -1,0 +1,182 @@
+@CHARSET "UTF-8";
+/* reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; text-decoration:none; font-family:Arial, Helvetica, sans-serif}
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+:focus, a:focus, a:active{outline: 0; }
+ins{ text-decoration: none; }
+del{ text-decoration: line-through; }
+table{border-collapse: collapse; border-spacing: 0;}
+/* reset */
+
+body {
+	background:#f5f5f5;}
+a { color:blue;
+	text-decoration:none;
+	font:bold} 
+a:hover{
+	text-decoration: none;
+	color:red
+}
+
+#login {
+	font-size:20px;
+	text-align:right;
+	margin:0px 230px 0px 230px;
+}
+img, fieldset{
+    padding: 0px;
+    border: none;
+	margin: 0px;
+	line-height: 0px;
+}
+#prew_img{
+	height: 250px;
+}	
+
+#ana {
+	width:800px;
+	margin:10px auto 30px auto;
+	background:white;
+	padding:1px;
+	box-shadow:5px 5px 20px black;
+	-webkit-box-shadow:5px 5px 20px black;
+	-moz-box-shadow:5px 5px 20px black;
+}
+
+#ust{}
+#ust img {width:800px;
+	height:400px;}
+#ust_menu{
+	float:left;
+	background:green;
+	width:800px;
+	text-align:center;}
+#ust_menu ul{}
+#ust_menu ul li{
+	float:left;
+	background:yellow; /*gray*/
+	width:262px; /*262 */
+	margin:2px;
+}
+#ust_menu a:hover {
+	background:white;
+	font-size:21px;
+}
+
+#sol{
+float:left;
+margin:100px 0;
+width:150px;
+background:blue;
+position:relative;
+left:-10px;
+	box-shadow:5px 5px 20px black;
+	-webkit-box-shadow:5px 5px 20px black;
+	-moz-box-shadow:5px 5px 20px black;
+}
+#sol ul{}
+#sol ul li{background:green;
+	margin:5px;
+}
+#sag{
+float:right;
+margin:100px 0;
+width:150px;
+background:blue;
+position:relative;
+right:-10px;
+	box-shadow:5px 5px 20px black;
+	-webkit-box-shadow:5px 5px 20px black;
+	-moz-box-shadow:5px 5px 20px black;
+}
+#sag ul{}
+#sag ul li{background:green;
+	margin:5px;
+}
+#orta{
+background:yellow;
+width:500px;
+margin:40px auto;
+padding:5px;
+}
+#orta img {width:800px;
+	height:320px;}
+#footer{
+background:gray;
+width:800px;
+margin:30px auto 0 auto;
+padding:10px;
+text-align:center;
+font-size:12px;}
+
+
+#footer h3 {
+width: 350px;
+margin: 0px 0px 0px 15px;
+float: left;
+}
+
+#element {
+	position:fixed;
+	padding:15px 640px;
+	width:600px;
+	margin:0px auto 30px auto;
+	background:white;
+	opacity: 0.5; 
+    filter: alpha(opacity=50); 
+}
+
+#footer p {
+width: 500px;
+float: right;
+text-align: center;
+color: green;
+margin: 0px 0px 0px 0px;
+font-size: 0.8em;
+line-height: 1.2em;
+height: 35px;}
+
+
+#footerr {
+	color: #FFF;
+	border-top: 2px solid #3399CC;
+	background-color: green; /*#54a4cd */
+	height: 20px;
+	font-size: 12px;
+	#margin-top: 60px;	/* üstten uzaklık */
+	padding: 12px;
+	padding-left: 90px;
+}
+
+.foo-list {
+	padding-right: 90px;
+}
+
+.foo-list ul {
+	float: right;
+}
+
+.foo-list ul li {
+	float: left;
+}
+
+.foo-list li a {
+	color: #FFF;
+	padding: 15px;
+}
+
+.foo-list li a:hover,#foo-list li.active a {
+	background-color: lightgreen; /*#f5f5f5 */
+	border-bottom: 2px solid #DDD;
+	color: #999;
+}
+/*
+.foo-list ul a:hover {
+	display: block;
+	padding: 20px 0 0 0;
+	line-height: 40px;
+	text-decoration: none;
+	background-color: #3399CC; /* #3399CC */
+}*/

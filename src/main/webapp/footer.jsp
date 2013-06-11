@@ -24,7 +24,7 @@
                     </div>
                     <div class="widget span3">
                         <h4>Bize Ulaşın</h4>
-                        <p><i class="icon-map-marker"></i> Adres : İSTASYON CD. STADYUM  KARŞISI MERKEZ - AMASYA</p>
+                        <p><i class="icon-map-marker"></i> Adres : İSTASYON CD. STADYUM  KARŞISI <br> MERKEZ - AMASYA</p>
                         <p><i class="icon-phone"></i> Telefon : 05394657342</p>
                         <p><i class="icon-user"></i> Şehir : Amasya</p>
                         <p><i class="icon-envelope-alt"></i> Web: <a href="https://plus.google.com/111949560762247081298/about?gl=tr&hl=tr">yesilev.com</a></p>

@@ -1,5 +1,5 @@
 <%@page import="java.util.ArrayList"%>
-<%-- <%@page import="com.select.resim_ekle"%>--%>
+<%@page import="com.select.resim_ekle"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -24,8 +24,32 @@
 	%>
 	
 	<jsp:include page="header.jsp"></jsp:include>
-	<p>
-		<br> <br> <br>
+	
+        <div class="testimonials-title">
+                <h3>Upload</h3>
+            </div>
+        <div class="presentation container">
+            <h2> <span class="violet">Resim Ekleme</span></h2>
+            <p>Resimleri bu bölümde ekleyebilirsiniz.</p>
+        </div>
+	<form action="ResimEkle.jsp">
+		<input type="text" name="image_name" placeholder="Resim Adı">&nbsp;
+		<input type="submit" value="Resim Ekle">
+	</form>
+	<a href="./evraklar.jsp"><input type="button" value="Evraklar"></a>
+	<br><br>
+	<div class="page-title">
+            <div class="container">
+                <div class="row">
+                    <div class="span12">
+                        <i class="icon-user page-title-icon"></i>
+                        <h2>Resim Tablosu /</h2>
+                        <p>Resimlerinizi buradan silebilirsiniz.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
 	<form id="btn_form" action="resim_sil">
 		<input type="hidden" id="btn_value" name="btn_value" value="">
 		<table class="table table-striped">
@@ -38,7 +62,7 @@
 				</tr>
 			</thead>
 			<tbody>
-			<%-- 
+			 
 				<%
 					resim_ekle resim = new resim_ekle();
 						ArrayList<Integer> id = resim.resimID();
@@ -60,20 +84,10 @@
 							out.print("Hata : " + e.getMessage());
 						}
 				%>
---%>
 			</tbody>
 		</table>
 	</form>
-	<br>
-	<form action="ResimEkle.jsp">
-		<input type="text" name="image_name" placeholder="Resim Adı">&nbsp;
-		<input type="submit" value="Resim Ekle">
-	</form>
-	<a href="./evraklar.jsp"><input type="button" value="Evraklar"></a>
-	<br>
-	<br>
-	<br>
-	<br>
+	
 	<jsp:include page="footer.jsp"></jsp:include>
 	<%
 		}

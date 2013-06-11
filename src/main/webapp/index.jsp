@@ -44,44 +44,6 @@
                 </div>
             </div>
         </div>
-<%-- 
-
-<div id="ana">
-          <div id="ust">
-             <img src="./images/yesil_amblem1.jpg" alt="yesil_amblem1" />
-		</div>
-          <div id="ust_menu">
-            <ul>
-              <li><a href="./index.jsp">Anasayfa</a></li>
-              <li><a href="./menu.jsp">Menümüz</a></li>
-              <li><a href="./hakkimizda.jsp">Hakkımızda</a></li>
-              <li><a href="./evraklar.jsp">Evraklar</a></li>
-              <li><a href="./iletisim.jsp">Nasıl gidilir</a></li>
-              <li><a href="./iletisim.jsp">İletişim</a></li>
-            </ul>
-          </div>
-          <div id="sol">
-			  <ul>
-				<li>Yeşil Ev 1</li>
-				<li>Yeşil Ev 2</li>
-				<li>Yeşil Ev 3</li>
-			  </ul>
-          </div>
-           <div id="sag">
-				<ul>
-				<li>Yeşil Ev 4</li>
-				<li>Yeşil Ev 5</li>
-				<li>Yeşil Ev 6</li>
-			  </ul>
-
-          </div>
-          <div id="orta">
-             <img src="./images/yesil_amblem2.jpg" width="500px" alt="yesil_amblem2" />
-          </div>
-         <center><font color="green">Yeşilev de semaver içmek büyük bir ayrıcalıktır...</font></center>
-   </div>
-   <div id="footer"><a href="http://mctr.github.com" title="Mesut Çittir">Mctr</a></div>
-   --%>
 <jsp:include page="footer.jsp"></jsp:include>
 
 		<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>

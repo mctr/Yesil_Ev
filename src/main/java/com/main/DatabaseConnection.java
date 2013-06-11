@@ -11,18 +11,17 @@ public class DatabaseConnection {
 	Connection connection = null;
 	PreparedStatement statement;
 	
-	
+	/*
 	private String dbName = "yesilev";
 	private String dbUser = "adminz1TpWFi";
 	private String dbPass = "aMbX4DubXZLm";	
 	private String url = "mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/" + dbName + "?useUnicode=yes&characterEncoding=UTF-8";;
-	/*
+	*/
 	
 	private String dbName = "kisiler";
 	private String dbUser = "root";
 	private String dbPass = "12345";	
-	private String url = "jdbc:mysql://localhost/" + dbName;;
-	*/
+	private String url = "jdbc:mysql://localhost/" + dbName + "?useUnicode=yes&characterEncoding=UTF-8";;
 	
 	public boolean Connect(){
 		try {

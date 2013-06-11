@@ -4,136 +4,99 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster">
+<link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="./assets/prettyPhoto/css/prettyPhoto.css">
+<link rel="stylesheet" href="./assets/css/flexslider.css">
+<link rel="stylesheet" href="./assets/css/font-awesome.css">
+<link rel="stylesheet" href="./assets/css/style.css">
 <title>Menülerimiz..</title>
-<style type="text/css">
-#ana {
-	width: 800px;
-	margin: 10px auto 30px auto;
-	background: white;
-	padding: 1px;
-	box-shadow: 5px 5px 20px black;
-	-webkit-box-shadow: 5px 5px 20px black;
-	-moz-box-shadow: 5px 5px 20px black;
-}
-#konular {
-	margin:15px 20px 30px 20px;
-	text-align:center;	
-	background-color:silver;
-	font-size: 22px;
-	color:blue;
-	text-decoration:underline;
-	box-shadow:20px 5px 20px black;
-		-webkit-box-shadow:5px 5px 20px black;
-		-moz-box-shadow:5px 5px 20px black;
-	}
-
-#sag {
-	float: right;
-	text-align: center;
-	margin: 100px 0;
-	width: 200px;
-	background: purple;
-	position: relative;
-	right: -10px;
-	box-shadow: 5px 5px 20px black;
-	-webkit-box-shadow: 5px 5px 20px black;
-	-moz-box-shadow: 5px 5px 20px black;
-}
-#sag ul li {
-	text-align: left;
-	color: white;
-	/*background:green;*/
-	margin: 5px;
-}
-#orta {
-	margin:40px auto;
-	padding:5px;
-	text-align: center;
-	/*margin: 100px 0;*/
-	width: 200px;
-	background: gray;
-	position: relative;
-	left: -10px;
-	box-shadow: 5px 5px 20px black;
-	-webkit-box-shadow: 5px 5px 20px black;
-	-moz-box-shadow: 5px 5px 20px black;
-}
-#orta ul li {
-	text-align: left;
-	color: white;
-	/*background:green;*/
-	margin: 5px;
-}
-
-#sol {
-	text-align: center;
-	float: left;
-	margin: 100px 0;
-	width: 200px;
-	background: red;
-	position: relative;
-	left: -10px;
-	box-shadow: 5px 5px 20px black;
-	-webkit-box-shadow: 5px 5px 20px black;
-	-moz-box-shadow: 5px 5px 20px black;
-}
-
-#sol ul li {
-	text-align: left;
-	color: white;
-	/*background:green;*/
-	margin: 5px;
-}
-</style>
 </head>
 <body>
 <jsp:include page="header.jsp"></jsp:include>
-	<div id="ana">
-		<div id="konular"><h1>Menümüz</h1></div>
-		<div id="sol">
-			<h3>YİYECEKLER</h3>
-			<ul>
-				<li>Tost Çeşitleri
-				<li>Tavuk ızgara
-				<li>Köfte-Patates
-				<li>Menemen
-				<li>Izgara Çeşitleri
-				<li>Vali Kebabı
-				<li>Saç Kavurma
-				<li>İskender
-			</ul>
-		</div>
-		<div id="sag">
-			<H3>İÇECEKLER</H3>
-			<ul>
-				<li>Kola
-				<li>Fanta
-				<li>Ayran
-				<li>Su
-				<li>soda(Sade ve Meyveli)
-			</ul>
+<div class="page-title">
+            <div class="container">
+                <div class="row">
+                    <div class="span12">
+                        <i class="icon-user page-title-icon"></i>
+                        <h2>Menümüz /</h2>
+                        <p>Yeşil Ev 1 'in menüsü(En Kapsamlı Menü)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-		</div>
-		<div id="orta">
-			<h3>KAHVALTILIK</h3>
-			<ul>
-				<li>Peynir(4 Çeşit)
-				<li>Sucuklu Yumurta
-				<li>Yumurta
-				<li>Börek
-				<li>Reçel(5 Çeşit)
-				<li>Tereyağ
-				<li>Salam, Sosis
-				<li>Patates Kızartması
-			</ul>
-			<div id="orta">
-			<ul>
-				<li>Hafta Sonları Açık Büfe
-			</ul>
-			</div>
-		</div>
+		        <div class="presentation container">
+            <h2>En Kapsamlı <span class="violet">Menümüz</span>, her istediginizi bulabilirsiniz.</h2>
+            <p>Eger menümüzde olmayan birşeyi yapmamızı isterseniz lütfen Yetkili kişi ile görüşün.</p>
+        </div>
 
-	</div>
+        <!-- Services -->
+        <div class="what-we-do container">
+            <div class="row">
+                <div class="service span3">
+                    <div class="icon-awesome">
+                        <i class="icon-eye-open"></i>
+                    </div>
+                    <h4>Yiyecekler</h4>
+						<br>Izgaralar
+						<br>Vali Kebabı
+						<br>Saç Kavurma
+						<br>Tavuk Şiş
+						<br>İskender
+						<br>Tost
+						<br>Menemen
+                </div>
+                <div class="service span3">
+                    <div class="icon-awesome">
+                        <i class="icon-table"></i>
+                    </div>
+                    <h4>Kahvaltılıklar</h4>
+                    <h5>Çeşitler</h5>
+					Haşlanmış Yumurta
+                    <br>Sucuklu Yumurta
+                    <br>Börek
+                    <br>Reçel(5 Çeşit)
+                    <br>Tereyag
+                    <br>Salam-Sosis
+                    <br>Çay(Bitki Çayları) 
+                    <br>Patates Kızartması
+                    <h5>Hafta Sonları Açık Büfe</h5>
+                </div>
+                <div class="service span3">
+                    <div class="icon-awesome">
+                        <i class="icon-magic"></i>
+                    </div>
+                    <h4>İçecekler</h4>
+                    Çay
+                    <br>Meyve Suyu
+                    <br>Kola
+                    <br>Fanta
+                    <br>soda(Sade-Meyveli)
+                    <br>Enerji İçecegi
+                    <br>Türk Kahvesi
+                    <br>Nescafe(3 ü 1 Arada )
+                </div>
+                <div class="service span3">
+                    <div class="icon-awesome">
+                        <i class="icon-print"></i>
+                    </div>
+                    <h4>Digerleri</h4>
+                    Nargile
+                    <br>Semaver(3 Boy)
+                    <br>Dondurma Çeşitleri                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="testimonials-title">
+                <h3>İstekler</h3>
+            </div>
+            <h5>Menümüzde Görmek istediginiz veya tavsiye etmek istediginiz bir çeşit olursa lütfen yetkili kişi ile baglantıya geçin.</h5>
+            <h3>Gösterdiginiz ilgiden dolayı Teşekkür ederiz..</h3>
+	
 <jsp:include page="footer.jsp"></jsp:include>
 </body>
 </html>

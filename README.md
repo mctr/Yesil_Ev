@@ -1,3 +1,3 @@
-The  OpenShift `jbossas` cartridge documentation can be found at:
+Yeşil Ev Resmi WeB Sitesi
 
-https://github.com/openshift/origin-server/tree/master/cartridges/openshift-origin-cartridge-jbossas/README.md
+[Yeşil Ev Aile Çay Bahçesi](http://amasyayesilev.com/)

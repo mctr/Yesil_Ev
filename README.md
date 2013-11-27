@@ -1,3 +1,3 @@
-Yeşil Ev Resmi WeB Sitesi
+Yeşil Ev Resmi Web Sitesi
 
-[Yeşil Ev Aile Çay Bahçesi](http://amasyayesilev.com/)
+[Yeşil Ev Aile Çay Bahçesi ve Dügün Salonu](http://amasyayesilev.com/)
